@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<!-- Manufacturer module tree view -->
+	<record id="manufacturer_list_view" model="ir.ui.view">
+		<field name="name">manufacturer.list.view</field>
+		<field name="model">manufacturer.detail</field>
+		<field name="arch" type="xml">
+			<tree>
+				<field name="cname" />
+				<field name="email" />
+				<field name="website" />
+			</tree>
+		</field>
+	</record>
+
+	<!--Manufacturer module kanban view -->
+	<record id="manufacturer_kanban_view" model="ir.ui.view">
+		<field name="name">manufacturer.kanban.view</field>
+		<field name="model">manufacturer.detail</field>
+		<field name="arch" type="xml">
+			<kanban class="o_manufacturer_detail_kanban">
+				<field name="cname" />
+				<field name="email" />
+				<field name="website" />
+				<templates>
+					<t t-name="kanban-box">
+						<div t-attf-class="oe_kanban_global_click">
+							<div class="oe_kanban_details">
+								<strong class="o_kanban_record_title">
+									<field name="cname" />
+								</strong>
+								<div t-if="record.email.value">
+									<t t-esc="record.email.value" />
+								</div>
+								<div t-if="record.website.value">
+									<t t-esc="record.website.value" />
+								</div>
+							</div>
+						</div>
+					</t>
+				</templates>
+			</kanban>
+		</field>
+	</record>
+
+	<!-- Manufacturer module form view -->
+	<record id="manufacturer_form_view" model="ir.ui.view">
+		<field name="name">manufacturer.form.view</field>
+		<field name="model">manufacturer.detail</field>
+		<field name="arch" type="xml">
+			<form>
+				<group string='General Informations'>
+					<group>
+						<field name="cname" />
+						<field name="email" widget='email' />
+						<field name="phone" />
+					</group>
+					<group>
+						<field name="country" />
+						<field name="website" widget='url' />
+					</group>
+				</group>
+				<notebook>
+					<page name="info" string="Company Information">
+						<group string='Company Details'>
+							<group>
+								<field name="owner" />
+								<field name="state" />
+								<field name="city" />
+							</group>
+							<group>
+								<field name="pincode" />
+								<field name="street" />
+							</group>
+						</group>
+					</page>
+					<page name="cinfo" string="Contact Information">
+						<group string='Contact Details'>
+							<group>
+								<field name="aphone" />
+								<field name="aemail" widget='email' />
+							</group>
+							<group>
+								<field name="fax" />
+								<field name="lphone" />
+							</group>
+						</group>
+					</page>
+				</notebook>
+			</form>
+		</field>
+	</record>
+
+	<!-- Manufacturer module action window sequence -->
+	<record id="action_manufacturer_details" model="ir.actions.act_window">
+		<field name="name">Manufacturer Details</field>
+		<field name="res_model">manufacturer.detail</field>
+		<field name="view_mode">tree,kanban,form</field>
+	</record>
+
+	<!-- Manufacturer module menus -->
+	<menuitem id="manufacturer_root_menu" name="Manufacturer" />
+	<menuitem id="manufacturer_sub_menu" parent="manufacturer_root_menu" name="Manufacturer Details" />
+	<menuitem id="manufacturer_details_menu" name="Manufacturer" action="action_manufacturer_details" parent="manufacturer_sub_menu" />
+	<menuitem id="product_sub_menu" parent="manufacturer_root_menu" name="Products" />
+	<menuitem id="product_details_menu" name="Products" action="product.product_template_action" parent="product_sub_menu" />
+</odoo>
+
+			

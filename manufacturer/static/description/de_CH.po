@@ -1,0 +1,2039 @@
+# Translation of Flectra Server.
+# This file contains the translation of the following modules:
+# 	* topology
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Flectra Server 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-30 09:40+0000\n"
+"PO-Revision-Date: 2022-09-30 09:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__co_ownership_share
+msgid " Co OwnerShip Share"
+msgstr "Wertquote"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__meeting_count
+msgid "# Meetings"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__task_count
+msgid "# Tasks"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__supplier_invoice_count
+msgid "# Vendor Bills"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "), are you sure to create a new one?"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__twogethr_partner_id
+msgid "2getHR Partner ID"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid ""
+"<span class=\"o_form_label o_td_label\" name=\"address_name\">\n"
+"                                    <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'contact')]}\">Company Address</b>\n"
+"                                    <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'invoice')]}\">Invoice Address</b>\n"
+"                                    <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'delivery')]}\">Delivery Address</b>\n"
+"                                    <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'other')]}\">Other Address</b>\n"
+"                                    <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'private')]}\">Private Address</b>\n"
+"                                    <b attrs=\"{'invisible': ['|', ('parent_id', '=', False), ('type', '!=', 'delivery_location')]}\">Delivery Location</b>\n"
+"                                    <b attrs=\"{'invisible': ['&amp;', ('parent_id', '!=', False), ('type', '!=', False)]}\">Address</b>\n"
+"                                </span>"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid ""
+"A partner with the same\n"
+"                        <span>\n"
+"                            <span class=\"o_vat_label\">Tax ID</span>\n"
+"                        </span>\n"
+"                        already exists ("
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__analytic_group_id
+msgid "Account Analytic Group"
+msgstr "Kostenstellengruppen"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__property_account_payable_id
+msgid "Account Payable"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__property_account_receivable_id
+msgid "Account Receivable"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_needaction
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_needaction
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_needaction
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_needaction
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_needaction
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_needaction
+msgid "Action Needed"
+msgstr "Aktion nötig"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__active
+#: model:ir.model.fields.selection,name:topology.selection__topology_location__state__active
+msgid "Active"
+msgstr "In Betrieb"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__active_lang_count
+msgid "Active Lang Count"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Address"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__type
+msgid "Address Type"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__amount_measuring_points
+msgid "Amount Measuring Points"
+msgstr "Anzahl Messpunkte"
+
+#. module: topology
+#: model:ir.model,name:topology.model_account_analytic_account
+#: model:ir.model.fields,field_description:topology.field_topology_scc__analytic_account_ids
+msgid "Analytic Account"
+msgstr "Kostenstelle"
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.scc_form_view
+msgid "Analytic Accounts"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Archived"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_attachment_count
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_attachment_count
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_attachment_count
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_attachment_count
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_attachment_count
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_attachment_count
+msgid "Attachment Count"
+msgstr "Anzahl Anhänge"
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Avatar"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_measurement_point__usage_type__ba
+msgid "BATTERY"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_measurement_point__usage_type__bt
+msgid "BUILDING_TECHNOLOGIES"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.scc_form_view
+msgid "Balance"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__bank_account_count
+msgid "Bank"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__bank_ids
+msgid "Banks"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__barcode
+msgid "Barcode"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__is_blacklisted
+msgid "Blacklist"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_bounce
+msgid "Bounce"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_location__state__building
+msgid "Building"
+msgstr "Im Bau"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__building_unit
+msgid "Building Unit"
+msgstr "Gebäudeeinheit "
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_measurement_point__usage_type__co
+msgid "CORPORATE"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__channel_ids
+msgid "Channels"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__customer
+msgid "Check this box if this contact is a customer."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__supplier
+msgid ""
+"Check this box if this contact is a vendor. If it's not checked, purchase "
+"people will not see it when encoding a purchase order."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__employee
+msgid "Check this box if this contact is an Employee."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__country_enforce_cities
+msgid ""
+"Check this box to ensure every address created in that country has a 'City' "
+"chosen in the list of the country's cities."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__city
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "City"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "City completion"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__city_id
+msgid "City of Address"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__color
+msgid "Color Index"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__comissioned
+msgid "Comissioned"
+msgstr "Inbetriebnahme"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__comment
+msgid "Comment"
+msgstr "Kommentar"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__commercial_partner_id
+msgid "Commercial Entity"
+msgstr ""
+
+#. module: topology
+#: code:addons/topology/models/electricity_meter.py:0
+#, python-format
+msgid "Commissioned date must be today or past date"
+msgstr ""
+"Das Datum für die Inbetriebnahme muss heute oder in der Vergangenheit liegen"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_pva__commissioning_inverter
+msgid "Commissioning Inverter"
+msgstr "Inbetriebnahme Wechselrichter"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_pva__commissioning_pva
+msgid "Commissioning Pva"
+msgstr "Inbetriebnahme PVA"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__ref_company_ids
+msgid "Companies that refers to partner"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_stock_production_lot__company_id
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__company_id
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Company"
+msgstr "Unternehmen"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__commercial_company_name
+msgid "Company Name Entity"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__company_type
+msgid "Company Type"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__contact_address
+msgid "Complete Address"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__child_ids
+#: model:ir.model.fields.selection,name:topology.selection__topology_delivery_address__type__contact
+msgid "Contact"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Contact / Address"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Contact Name"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Contact image"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Contacts & Addresses"
+msgstr ""
+
+#. module: topology
+#: model:ir.model,name:topology.model_contract_contract
+msgid "Contract"
+msgstr "Vertrag"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__contract_vacancy_id
+msgid "Contract Vacancy"
+msgstr "Vertrag Leerstandsabrechnung"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__contract_ids
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__contract_ids
+#: model_terms:ir.ui.view,arch_db:topology.measurement_point_form_view
+msgid "Contracts"
+msgstr "Verträge"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_pva__count_locations
+msgid "Count Locations"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__payment_token_count
+msgid "Count Payment Token"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__country_id
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Country"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Create company"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__create_uid
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__create_uid
+#: model:ir.model.fields,field_description:topology.field_topology_location__create_uid
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__create_uid
+#: model:ir.model.fields,field_description:topology.field_topology_pva__create_uid
+#: model:ir.model.fields,field_description:topology.field_topology_scc__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__create_date
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__create_date
+#: model:ir.model.fields,field_description:topology.field_topology_location__create_date
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__create_date
+#: model:ir.model.fields,field_description:topology.field_topology_pva__create_date
+#: model:ir.model.fields,field_description:topology.field_topology_scc__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.scc_form_view
+msgid "Credit"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__credit_control_analysis_ids
+msgid "Credit Control Levels"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__credit_policy_id
+msgid "Credit Control Policy"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__credit_limit
+msgid "Credit Limit"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__current_electricity_meter_id
+msgid "Current Electricity Meter"
+msgstr "Aktueller Zähler"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__customer_invoice_transmit_method_id
+msgid "Customer Invoice Transmission Method"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__customer_invoice_transmit_method_code
+msgid "Customer Invoice Transmission Method Code"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__property_stock_customer
+msgid "Customer Location"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__customer_payment_mode_id
+msgid "Customer Payment Mode"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__payment_note
+msgid "Customer Payment Promise"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__customer_rank
+msgid "Customer Rank"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__date
+msgid "Date"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.scc_form_view
+msgid "Debit"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__decommissioned
+msgid "Decomissioned"
+msgstr "Ausserbetriebsetzung"
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_electricity_meter__state__decomissioned
+msgid "Decomissioned "
+msgstr "Ausserbetriebsetzung"
+
+#. module: topology
+#: code:addons/topology/models/electricity_meter.py:0
+#, python-format
+msgid "Decommissioned date must be today or past date"
+msgstr ""
+"Das Datum der Ausserbetriebsetzung muss heute oder in der Vergangenheit "
+"liegen"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__mail_template_invoice
+msgid "Default Template Invoice"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__property_delivery_carrier_id
+msgid "Default delivery method used in sales orders."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_electricity_meter__state__defect
+msgid "Defect"
+msgstr "Defekt"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__trust
+msgid "Degree of trust you have in this debtor"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Delivery"
+msgstr ""
+
+#. module: topology
+#: model:ir.model,name:topology.model_topology_delivery_address
+#: model:ir.model.fields.selection,name:topology.selection__topology_delivery_address__type__delivery
+msgid "Delivery Address"
+msgstr ""
+
+#. module: topology
+#: model:ir.actions.act_window,name:topology.action_delivery_address_view
+#: model:ir.model.fields,field_description:topology.field_contract_contract__delivery_address_id
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__delivery_address_id
+#: model:ir.model.fields.selection,name:topology.selection__topology_delivery_address__type__delivery_location
+#: model:ir.ui.menu,name:topology.menu_delivery_address
+#: model_terms:ir.ui.view,arch_db:topology.delivery_address_list_view
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Delivery Location"
+msgstr "Leistungsort"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__property_delivery_carrier_id
+msgid "Delivery Method"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_account_analytic_account__display_name
+#: model:ir.model.fields,field_description:topology.field_contract_contract__display_name
+#: model:ir.model.fields,field_description:topology.field_stock_production_lot__display_name
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__display_name
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__display_name
+#: model:ir.model.fields,field_description:topology.field_topology_location__display_name
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__display_name
+#: model:ir.model.fields,field_description:topology.field_topology_pva__display_name
+#: model:ir.model.fields,field_description:topology.field_topology_scc__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__customer_invoice_transmit_method_code
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__supplier_invoice_transmit_method_code
+msgid ""
+"Do not modify the code of an existing Transmit Method because it may be used"
+" to identify a particular transmit method."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__ew_measuring_point_number
+msgid "EW Measuring Point Number"
+msgstr "EW Messpunktnummer"
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_measurement_point__usage_type__em
+msgid "E_MOBILITY"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: topology
+#: model:ir.actions.act_window,name:topology.action_electricity_meter_view
+#: model:ir.model,name:topology.model_topology_electricity_meter
+#: model:ir.model.fields,field_description:topology.field_contract_contract__electricity_meter_id
+#: model:ir.ui.menu,name:topology.menu_electricity_meter
+msgid "Electricity Meter"
+msgstr "Zähler"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__electricity_meter_ids
+#: model_terms:ir.ui.view,arch_db:topology.measurement_point_form_view
+msgid "Electricity Meters"
+msgstr "Zähler"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__email
+msgid "Email"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__email_bounced
+msgid "Email Bounced"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__email_score
+msgid "Email Score"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__employee
+msgid "Employee"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__country_enforce_cities
+msgid "Enforce Cities"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__exchange_date
+msgid "Exchange Date"
+msgstr "Spätester Austausch"
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_electricity_meter__state__exchange_planned
+msgid "Exchange Planned"
+msgstr "Austausch geplant"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__failed_message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__failed_message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_location__failed_message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__failed_message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_pva__failed_message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_scc__failed_message_ids
+msgid "Failed Messages"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__property_account_position_id
+msgid "Fiscal Position"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__payment_responsible_id
+msgid "Follow-up Responsible"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_follower_ids
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_follower_ids
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_follower_ids
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_follower_ids
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_follower_ids
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_channel_ids
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_channel_ids
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_channel_ids
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_channel_ids
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_channel_ids
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_partner_ids
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_partner_ids
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_partner_ids
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_partner_ids
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_partner_ids
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__email_formatted
+msgid "Formatted Email"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.scc_form_view
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Gebäude, Stockwerk, Wohnung"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__partner_latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__partner_longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_scc__hcb
+msgid "HCB"
+msgstr "Hausanschlusskasten"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__has_unreconciled_entries
+msgid "Has Unreconciled Entries"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_account_analytic_account__id
+#: model:ir.model.fields,field_description:topology.field_contract_contract__id
+#: model:ir.model.fields,field_description:topology.field_stock_production_lot__id
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__id
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__id
+#: model:ir.model.fields,field_description:topology.field_topology_location__id
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__id
+#: model:ir.model.fields,field_description:topology.field_topology_pva__id
+#: model:ir.model.fields,field_description:topology.field_topology_scc__id
+msgid "ID"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__im_status
+msgid "IM Status"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__message_needaction
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__message_unread
+#: model:ir.model.fields,help:topology.field_topology_electricity_meter__message_needaction
+#: model:ir.model.fields,help:topology.field_topology_electricity_meter__message_unread
+#: model:ir.model.fields,help:topology.field_topology_location__message_needaction
+#: model:ir.model.fields,help:topology.field_topology_location__message_unread
+#: model:ir.model.fields,help:topology.field_topology_measurement_point__message_needaction
+#: model:ir.model.fields,help:topology.field_topology_measurement_point__message_unread
+#: model:ir.model.fields,help:topology.field_topology_pva__message_needaction
+#: model:ir.model.fields,help:topology.field_topology_pva__message_unread
+#: model:ir.model.fields,help:topology.field_topology_scc__message_needaction
+#: model:ir.model.fields,help:topology.field_topology_scc__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__message_has_error
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__message_has_sms_error
+#: model:ir.model.fields,help:topology.field_topology_electricity_meter__message_has_error
+#: model:ir.model.fields,help:topology.field_topology_electricity_meter__message_has_sms_error
+#: model:ir.model.fields,help:topology.field_topology_location__message_has_error
+#: model:ir.model.fields,help:topology.field_topology_location__message_has_sms_error
+#: model:ir.model.fields,help:topology.field_topology_measurement_point__message_has_error
+#: model:ir.model.fields,help:topology.field_topology_measurement_point__message_has_sms_error
+#: model:ir.model.fields,help:topology.field_topology_pva__message_has_error
+#: model:ir.model.fields,help:topology.field_topology_pva__message_has_sms_error
+#: model:ir.model.fields,help:topology.field_topology_scc__message_has_error
+#: model:ir.model.fields,help:topology.field_topology_scc__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__team_id
+msgid ""
+"If set, this Sales Team will be used for sales and assignments related to "
+"this partner"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__phone_sanitized_blacklisted
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive"
+" mass mailing sms anymore, from any list"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__important_contact_ids
+#: model_terms:ir.ui.view,arch_db:topology.location_form_view
+msgid "Important Contacts"
+msgstr "Wichtige Kontakte"
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_electricity_meter__state__in_use
+msgid "In Use"
+msgstr "In Verwendung"
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_location__state__inactive
+msgid "Inactive"
+msgstr "Ausser Betrieb"
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__mobile_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__phone_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a phone number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__industry_id
+msgid "Industry"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Internal Notes"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Internal note..."
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Internal notes..."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__invoice_warn
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Invoice"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are"
+" only visible by authorized users."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_delivery_address__type__invoice
+msgid "Invoice Address"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__invoice_ids
+msgid "Invoices"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_is_follower
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_is_follower
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_is_follower
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_is_follower
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_is_follower
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__is_company
+msgid "Is a Company"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__customer
+msgid "Is a Customer"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__supplier
+msgid "Is a Vendor"
+msgstr ""
+
+#. module: topology
+#: code:addons/topology/models/pva.py:0
+#, python-format
+msgid "It is required to select or create Location!!"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__function
+msgid "Job Position"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__journal_item_count
+msgid "Journal Items"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__kind_of_use
+msgid "Kind Of Use"
+msgstr "Nutzungsart"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__lang
+msgid "Language"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_account_analytic_account____last_update
+#: model:ir.model.fields,field_description:topology.field_contract_contract____last_update
+#: model:ir.model.fields,field_description:topology.field_stock_production_lot____last_update
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address____last_update
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter____last_update
+#: model:ir.model.fields,field_description:topology.field_topology_location____last_update
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point____last_update
+#: model:ir.model.fields,field_description:topology.field_topology_pva____last_update
+#: model:ir.model.fields,field_description:topology.field_topology_scc____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__write_uid
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__write_uid
+#: model:ir.model.fields,field_description:topology.field_topology_location__write_uid
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__write_uid
+#: model:ir.model.fields,field_description:topology.field_topology_pva__write_uid
+#: model:ir.model.fields,field_description:topology.field_topology_scc__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt angepasst von"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__write_date
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__write_date
+#: model:ir.model.fields,field_description:topology.field_topology_location__write_date
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__write_date
+#: model:ir.model.fields,field_description:topology.field_topology_pva__write_date
+#: model:ir.model.fields,field_description:topology.field_topology_scc__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt angepasst am"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__calendar_last_notif_ack
+msgid "Last notification marked as read from base Calendar"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__last_time_entries_checked
+msgid ""
+"Last time the invoices & payments matching was performed for this partner. "
+"It is set either if there's not at least an unreconciled debit and an "
+"unreconciled credit or if you click the \"Done\" button."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr ""
+
+#. module: topology
+#: model:ir.actions.act_window,name:topology.action_location_view
+#: model:ir.model,name:topology.model_topology_location
+#: model:ir.model.fields,field_description:topology.field_contract_contract__location_id
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__location_id
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__location_id
+#: model:ir.model.fields,field_description:topology.field_topology_pva__location_ids
+#: model:ir.model.fields,field_description:topology.field_topology_scc__location_id
+#: model:ir.ui.menu,name:topology.menu_location
+#: model_terms:ir.ui.view,arch_db:topology.pva_form_view
+msgid "Location"
+msgstr "Lokation"
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Location completion"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Logo"
+msgstr ""
+
+#. module: topology
+#: model:ir.model,name:topology.model_stock_production_lot
+msgid "Lot/Serial"
+msgstr "Los/Serie"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_main_attachment_id
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_main_attachment_id
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_main_attachment_id
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_main_attachment_id
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_main_attachment_id
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_product_product__manufacturer_code
+msgid "Manufacturer Code"
+msgstr "Herstellerkürzel"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__manual_followup
+msgid "Manual Followup"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_pva__max_kwp
+msgid "Max Kwp"
+msgstr "Maximalleistung kWp"
+
+#. module: topology
+#: model:ir.actions.act_window,name:topology.action_measurement_point_view
+#: model:ir.model,name:topology.model_topology_measurement_point
+#: model:ir.model.fields,field_description:topology.field_contract_contract__measurement_point_id
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__measurement_point_ids
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__measurement_point_id
+#: model:ir.model.fields,field_description:topology.field_topology_location__measurement_point_ids
+#: model:ir.model.fields,field_description:topology.field_topology_pva__measurement_point_id
+#: model:ir.model.fields,field_description:topology.field_topology_scc__measurement_point_ids
+#: model:ir.ui.menu,name:topology.menu_measurement_point
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Measurement Point"
+msgstr "Messpunkt"
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.location_form_view
+#: model_terms:ir.ui.view,arch_db:topology.scc_form_view
+msgid "Measurement Points"
+msgstr "Messpunkt"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__meeting_ids
+msgid "Meetings"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_has_error
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_has_error
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_has_error
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_has_error
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_has_error
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__invoice_warn_msg
+msgid "Message for Invoice"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__sale_warn_msg
+msgid "Message for Sales Order"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__picking_warn_msg
+msgid "Message for Stock Picking"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_ids
+msgid "Messages"
+msgstr "Meldungen"
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Misc"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Mobile:"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "More languages"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__name
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__name
+#: model:ir.model.fields,field_description:topology.field_topology_location__name
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__name
+#: model:ir.model.fields,field_description:topology.field_topology_pva__name
+#: model:ir.model.fields,field_description:topology.field_topology_scc__name
+#: model_terms:ir.ui.view,arch_db:topology.delivery_address_list_view
+#: model_terms:ir.ui.view,arch_db:topology.measurement_point_form_view
+#: model_terms:ir.ui.view,arch_db:topology.scc_form_view
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Name"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__payment_next_action
+msgid "Next Action"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__payment_next_action_date
+msgid "Next Action Date"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__payment_next_action_type
+msgid "Next Action Type"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__email_normalized
+msgid "Normalized Email"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__comment
+msgid "Notes"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__number
+msgid "Number"
+msgstr "Messpunkt-Nr."
+
+#. module: topology
+#: model:ir.model.constraint,message:topology.constraint_topology_measurement_point_number_uniq
+msgid "Number must be unique per scc !"
+msgstr "Messpunkt-Nr. muss eindeutig sein pro Eigenverbrauchsgemeinschaft"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_needaction_counter
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_needaction_counter
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_needaction_counter
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_needaction_counter
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_needaction_counter
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_has_error_counter
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_has_error_counter
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_has_error_counter
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_has_error_counter
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_has_error_counter
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__message_needaction_counter
+#: model:ir.model.fields,help:topology.field_topology_electricity_meter__message_needaction_counter
+#: model:ir.model.fields,help:topology.field_topology_location__message_needaction_counter
+#: model:ir.model.fields,help:topology.field_topology_measurement_point__message_needaction_counter
+#: model:ir.model.fields,help:topology.field_topology_pva__message_needaction_counter
+#: model:ir.model.fields,help:topology.field_topology_scc__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__message_has_error_counter
+#: model:ir.model.fields,help:topology.field_topology_electricity_meter__message_has_error_counter
+#: model:ir.model.fields,help:topology.field_topology_location__message_has_error_counter
+#: model:ir.model.fields,help:topology.field_topology_measurement_point__message_has_error_counter
+#: model:ir.model.fields,help:topology.field_topology_pva__message_has_error_counter
+#: model:ir.model.fields,help:topology.field_topology_scc__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__message_unread_counter
+#: model:ir.model.fields,help:topology.field_topology_electricity_meter__message_unread_counter
+#: model:ir.model.fields,help:topology.field_topology_location__message_unread_counter
+#: model:ir.model.fields,help:topology.field_topology_measurement_point__message_unread_counter
+#: model:ir.model.fields,help:topology.field_topology_pva__message_unread_counter
+#: model:ir.model.fields,help:topology.field_topology_scc__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__opportunity_ids
+msgid "Opportunities"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__opportunity_count
+msgid "Opportunity"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__payment_responsible_id
+msgid ""
+"Optionally you can assign a user to this field, which will make him "
+"responsible for the action."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_delivery_address__type__other
+msgid "Other Address"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__owner_id
+msgid "Owner"
+msgstr "Eigentümer"
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_measurement_point__usage_type__pv
+msgid "PHOTOVOLTAICS"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_measurement_point__usage_type__pr
+msgid "PRIVATE"
+msgstr ""
+
+#. module: topology
+#: model:ir.actions.act_window,name:topology.action_pva_view
+#: model:ir.model,name:topology.model_topology_pva
+#: model:ir.model.fields,field_description:topology.field_topology_location__pva_id
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__pva_id
+#: model:ir.ui.menu,name:topology.menu_pva
+msgid "PVA"
+msgstr "PV-Anlage"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__parent_name
+msgid "Parent name"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__partner_id
+msgid "Partner"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__debit_limit
+msgid "Payable Limit"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__payment_note
+msgid "Payment Note"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__payment_token_ids
+msgid "Payment Tokens"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__phone
+msgid "Phone"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Phone:"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_location__state__planned
+msgid "Planned"
+msgstr "Geplant"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__portfolio_manager_id
+msgid "Portfolio Manager"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__property_product_pricelist
+msgid "Pricelist"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_delivery_address__type__private
+msgid "Private Address"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__product_id
+msgid "Product"
+msgstr "Produkt"
+
+#. module: topology
+#: code:addons/topology/models/electricity_meter.py:0
+#, python-format
+msgid "Product manufacturer code is not set"
+msgstr "Produkt herstellerkürzel ist nicht gesetzt"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__project_id
+msgid "Project"
+msgstr "Projekt"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__project_key
+msgid "Project Key"
+msgstr "Projektnummer"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__project_sharepoint_url
+msgid "Project SharePoint URL"
+msgstr "Projekt SharePoint URL"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_location__property_management_id
+msgid "Property Management"
+msgstr "Verwaltung"
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Purchase"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__purchase_contract_count
+msgid "Purchase Contracts"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_location__state__ready
+msgid "Ready"
+msgstr "Betriebsbereit"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__ref
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Reference"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__parent_id
+msgid "Related Company"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: topology
+#: model:ir.actions.act_window,name:topology.action_scc_view
+#: model:ir.model,name:topology.model_topology_scc
+#: model:ir.model.fields,field_description:topology.field_account_analytic_account__scc_id
+#: model:ir.model.fields,field_description:topology.field_contract_contract__scc_id
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__scc_id
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__scc_id
+#: model:ir.model.fields,field_description:topology.field_topology_location__scc_ids
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__scc_id
+#: model:ir.ui.menu,name:topology.menu_scc
+#: model_terms:ir.ui.view,arch_db:topology.location_form_view
+msgid "SCC"
+msgstr "Eigenverbrauchsgemeinschaft"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_scc__scc_name
+msgid "SCC Name"
+msgstr "ZEV-Name"
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_measurement_point__usage_type__sh
+msgid "SHARED"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_has_sms_error
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_has_sms_error
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_has_sms_error
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_has_sms_error
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_has_sms_error
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_measurement_point__usage_type__su
+msgid "SUMMATOR"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__sale_contract_count
+msgid "Sale Contracts"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__sale_order_count
+msgid "Sale Order Count"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__sale_type
+msgid "Sale Order Type"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Sales"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Sales & Purchase"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__sale_order_ids
+msgid "Sales Order"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__team_id
+msgid "Sales Team"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__sale_warn
+msgid "Sales Warnings"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__phone_sanitized
+msgid "Sanitized Number"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__customer_payment_mode_id
+msgid "Select the default payment mode for this customer."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__supplier_payment_mode_id
+msgid "Select the default payment mode for this supplier."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__invoice_warn
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__picking_warn
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__sale_warn
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__self
+msgid "Self"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__serial_number_id
+msgid "Serial Number"
+msgstr "Seriennummer"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__partner_share
+msgid "Share Partner"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__signup_expiration
+msgid "Signup Expiration"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__signup_token
+msgid "Signup Token"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__signup_type
+msgid "Signup Token Type"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__signup_valid
+msgid "Signup Token is Valid"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__signup_url
+msgid "Signup URL"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__state_id
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "State"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__state
+#: model:ir.model.fields,field_description:topology.field_topology_location__state
+msgid "States"
+msgstr "Zustände"
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__picking_warn
+msgid "Stock Picking"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__storey
+msgid "Storey"
+msgstr "Stockwerk  "
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__street
+msgid "Street"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Street 2..."
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Street..."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__street2
+msgid "Street2"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__supplier_payment_mode_id
+msgid "Supplier Payment Mode"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__supplier_rank
+msgid "Supplier Rank"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__category_id
+msgid "Tags"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "Tags..."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__task_ids
+msgid "Tasks"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__vat
+msgid "Tax ID"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__credit_policy_id
+msgid ""
+"The Credit Control Policy used for this partner. This setting can be forced "
+"on the invoice. If nothing is defined, it will use the company setting."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__property_account_position_id
+msgid ""
+"The fiscal position determines the taxes/accounts used for this contact."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__has_unreconciled_entries
+msgid ""
+"The partner has at least one unreconciled debit and credit since last time "
+"the invoices & payments matching was performed."
+msgstr ""
+
+#. module: topology
+#: code:addons/topology/models/electricity_meter.py:0
+#, python-format
+msgid ""
+"The product manufacturer code is not set. Error in computing the name of the"
+" electricity meter."
+msgstr "Produkt herstellerkürzel ist nicht gesetzt. Fehler bei der Berechnung des Namens des Stromzählers."
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__property_stock_customer
+msgid ""
+"The stock location used as destination when sending goods to this contact."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__property_stock_supplier
+msgid ""
+"The stock location used as source when receiving goods from this contact."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__property_account_payable_id
+msgid ""
+"This account will be used instead of the default one as the payable account "
+"for the current partner"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__property_account_receivable_id
+msgid ""
+"This account will be used instead of the default one as the receivable "
+"account for the current partner"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_electricity_meter__exchange_date
+msgid ""
+"This is the date on which the goods with this Serial Number may become "
+"dangerous and must not be consumed."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__payment_next_action
+msgid "This is the next action to be taken."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__payment_next_action_date
+msgid "This is when the manual follow-up is needed."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__property_supplier_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for purchase "
+"orders and vendor bills"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__property_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for sales orders "
+"and customer invoices"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__tz
+msgid "Timezone"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__tz_offset
+msgid "Timezone offset"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__title
+msgid "Title"
+msgstr ""
+
+#. module: topology
+#: model:ir.ui.menu,name:topology.topology
+#: model_terms:ir.ui.view,arch_db:topology.contract_contract_form_view_inherit
+msgid "Topology"
+msgstr "Topologie"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__total_invoiced
+msgid "Total Invoiced"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__debit
+msgid "Total Payable"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__credit
+msgid "Total Receivable"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__credit
+msgid "Total amount this customer owes you."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__debit
+msgid "Total amount you have to pay to this vendor."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__tracking_emails_count
+msgid "Tracking Emails Count"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: topology
+#: code:addons/topology/models/location.py:0
+#, python-format
+msgid "Unable to archive project!!"
+msgstr "Dieses Projekt kann nicht archiviert werden."
+
+#. module: topology
+#: code:addons/topology/models/location.py:0
+#, python-format
+msgid "Unable to change the state as active: %s"
+msgstr "Der Status kann nicht auf Aktiv gewechselt werden"
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_unread
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_unread
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_unread
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_unread
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_unread
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__message_unread_counter
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__message_unread_counter
+#: model:ir.model.fields,field_description:topology.field_topology_location__message_unread_counter
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__message_unread_counter
+#: model:ir.model.fields,field_description:topology.field_topology_pva__message_unread_counter
+#: model:ir.model.fields,field_description:topology.field_topology_scc__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__usage_type
+msgid "Usage Type"
+msgstr "Nutzungsart"
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__barcode
+msgid "Use a barcode to identify this contact."
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__currency_id
+msgid "Utility field to express amount currency"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields.selection,name:topology.selection__topology_measurement_point__usage_type__vi
+msgid "VIRTUAL"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__supplier_invoice_transmit_method_id
+msgid "Vendor Invoice Reception Method"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__supplier_invoice_transmit_method_code
+msgid "Vendor Invoice Reception Method Code"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__property_stock_supplier
+msgid "Vendor Location"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__website
+msgid "Website Link"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__website_message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_electricity_meter__website_message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_location__website_message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_measurement_point__website_message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_pva__website_message_ids
+#: model:ir.model.fields,field_description:topology.field_topology_scc__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__website_message_ids
+#: model:ir.model.fields,help:topology.field_topology_electricity_meter__website_message_ids
+#: model:ir.model.fields,help:topology.field_topology_location__website_message_ids
+#: model:ir.model.fields,help:topology.field_topology_measurement_point__website_message_ids
+#: model:ir.model.fields,help:topology.field_topology_pva__website_message_ids
+#: model:ir.model.fields,help:topology.field_topology_scc__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,help:topology.field_topology_delivery_address__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: topology
+#: code:addons/topology/models/location.py:0
+#, python-format
+msgid "You have to set Contract Vacancy before moving to Ready state!!"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "ZIP"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__zip_id
+msgid "ZIP Location"
+msgstr ""
+
+#. module: topology
+#: model:ir.model.fields,field_description:topology.field_topology_delivery_address__zip
+msgid "Zip"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "e.g. BE0477472701"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "e.g. Mister"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "e.g. Mr."
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "e.g. Sales Director"
+msgstr ""
+
+#. module: topology
+#: model_terms:ir.ui.view,arch_db:topology.view_deliver_address_form
+msgid "e.g. https://www.flectrahq.com"
+msgstr ""

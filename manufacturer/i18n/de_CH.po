@@ -1,0 +1,260 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* manufacturer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-03 13:05+0000\n"
+"PO-Revision-Date: 2022-02-03 13:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong> Manufacturer Details </strong>"
+msgstr "Herstellerangaben"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>Alternate Email :</strong>"
+msgstr "Alternative Email :"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>Alternate Mob. No.:</strong>"
+msgstr "Alternative Handy Nr.:"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>City : </strong>"
+msgstr "Stadt :"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>Country : </strong>"
+msgstr "Land :"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>E-Mail : </strong>"
+msgstr "E-Mail :"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>Fax :</strong>"
+msgstr "Fax :"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>Landline/Telephone:</strong>"
+msgstr "Festnetz/telefon :"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>Mob. No: </strong>"
+msgstr "Handy Nr:"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>Pin Code : </strong>"
+msgstr "Geheimzahl :"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>State : </strong>"
+msgstr "Zustand :"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>Street Address : </strong>"
+msgstr "Adresse :"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.report_manufacturer_detail
+msgid "<strong>Website: </strong>"
+msgstr "Webseite:"
+
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__aemail
+msgid "Alternate Email"
+msgstr "Alternative E-Mail"
+
+#. module: manufacturer
+#: model:ir.actions.report,name:manufacturer.manufacturer_detail_print
+msgid "Print Manufacturer Detail"
+msgstr "Herstellerdetails drucken"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__aphone
+msgid "Alternate Mobile No."
+msgstr "Alternative Handy Nr."
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__city
+msgid "City"
+msgstr "Stadt"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.manufacturer_form_view
+msgid "Company Details"
+msgstr "Unternehmens Details"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.manufacturer_form_view
+msgid "Company Information"
+msgstr "Firmeninformation"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__cname
+msgid "Company Name"
+msgstr "Name der Firma"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.manufacturer_form_view
+msgid "Contact Details"
+msgstr "Kontaktdetails"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.manufacturer_form_view
+msgid "Contact Information"
+msgstr "Kontaktinformation"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__country
+msgid "Country"
+msgstr "Land"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__email
+msgid "Email"
+msgstr "Email"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__fax
+msgid "Fax"
+msgstr "Fax"
+
+#. module: manufacturer
+#: model_terms:ir.ui.view,arch_db:manufacturer.manufacturer_form_view
+msgid "General Informations"
+msgstr "Allgemeine Informationen"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__id
+msgid "ID"
+msgstr "ICH WÜRDE"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__lphone
+msgid "Landline/TelePhone."
+msgstr "Festnetz/telefon"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: manufacturer
+#: model:ir.ui.menu,name:manufacturer.manufacturer_details_menu
+#: model:ir.ui.menu,name:manufacturer.manufacturer_root_menu
+msgid "Manufacturer"
+msgstr "Herstellerin"
+
+#. module: manufacturer
+#: model:ir.actions.act_window,name:manufacturer.action_manufacturer_details
+#: model:ir.model.fields,field_description:manufacturer.field_product_product__manufact_details
+#: model:ir.model.fields,field_description:manufacturer.field_product_template__manufact_details
+#: model:ir.ui.menu,name:manufacturer.manufacturer_sub_menu
+#: model_terms:ir.ui.view,arch_db:manufacturer.product_template_only_form_view_inherit
+msgid "Manufacturer Details"
+msgstr "Herstellerangaben"
+
+#. module: manufacturer
+#: model:ir.actions.server,name:manufacturer.ir_cron_data_manufacturer_update_state_ir_actions_server
+#: model:ir.cron,cron_name:manufacturer.ir_cron_data_manufacturer_update_state
+#: model:ir.cron,name:manufacturer.ir_cron_data_manufacturer_update_state
+msgid "Manufacturer: Pull Data"
+msgstr "Hersteller: Daten ziehen"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__mdata
+msgid "Mdata"
+msgstr "MDaten"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__phone
+msgid "Mobile No"
+msgstr "Handy Nr"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__owner
+msgid "Owner Name"
+msgstr "Besitzername"
+
+#. module: manufacturer
+#: model:ir.model,name:manufacturer.model_product_template
+msgid "Product Template"
+msgstr "Produktvorlage"
+
+#. module: manufacturer
+#: model:ir.ui.menu,name:manufacturer.product_details_menu
+#: model:ir.ui.menu,name:manufacturer.product_sub_menu
+msgid "Products"
+msgstr "Produkte"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__state
+msgid "State"
+msgstr "Zustand"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__street
+msgid "Street Address"
+msgstr "Adresse"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__website
+msgid "Website"
+msgstr "Webseite"
+
+#. module: manufacturer
+#: model:ir.model.fields,field_description:manufacturer.field_manufacturer_detail__pincode
+msgid "Zip Code / Pin Code"
+msgstr "Postleitzahl / Geheimzahl"
+
+#. module: manufacturer
+#: model:ir.model,name:manufacturer.model_manufacturer_detail
+msgid "manufacturer.detail"
+msgstr "hersteller.detail"

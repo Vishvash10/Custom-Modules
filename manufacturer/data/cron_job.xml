@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Cron Job / Scheduled Actions for fetching manufacturer data from API-->
+    <record id="ir_cron_data_manufacturer_update_state" model="ir.cron">
+        <field name="name">Manufacturer: Pull Data</field>
+        <field name="model_id" ref="model_manufacturer_detail"/>
+        <field name="type">ir.actions.server</field>
+        <field name="state">code</field>
+        <field name="code">model.pull_data_from_api()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">hours</field>
+        <field name="numbercall">-1</field>
+    </record>
+    
+</odoo>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Qweb-Report view and template design -->
+    <record id="manufacturer_detail_print" model="ir.actions.report">
+        <field name="name">Print Manufacturer Detail</field>
+        <field name="model">manufacturer.detail</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">manufacturer.report_manufacturer_detail</field>
+        <field name="report_file">manufacturer.report_manufacturer_detail</field>
+        <field name="binding_model_id" ref="model_manufacturer_detail"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <template id="report_manufacturer_detail">
+        <t t-call="web.basic_layout">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="manufacturer.report_manufacturer_detail" t-lang="o.manufacturer_detail.lang"/>
+            </t>
+        </t>
+    </template>
+
+    <template id="report_manufacturer_detail">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="web.basic_layout">
+                <div class="page">
+                    <div class="oe_structure"/>
+                    <p style="text-align:center;">
+                        <h1 style="text-align:center;">
+                            <strong> Manufacturer Details </strong>
+                        </h1>
+                    </p>
+                    <br></br>
+                    <br></br>
+                    <div class="row">
+                        <div class="col-xs-2" style="margin:auto;">
+                        </div>
+                        <center>
+                            <div class="col-xs-8" style="margin:auto">
+                                <table class="table table-condensed" style="border: 3px solid black !important;">
+                                    <tr>
+                                        <td width="40%">
+                                            <p style="text-align:center;">
+                                                <h2>
+                                                    <strong>
+                                                        <span t-field="o.cname"/>
+                                                    </strong>
+                                                </h2>
+                                                <h6>
+                                                    <strong>
+                                                        <span t-field="o.owner"/>
+                                                    </strong>
+                                                </h6>
+                                            </p>
+                                        </td>
+                                        <td width="60%">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <p style="text-align:left;">
+                                                            <strong>E-Mail : </strong>
+                                                        </p>
+                                                        <p style="text-align:left;">
+                                                            <strong>Website: </strong>
+                                                        </p>
+                                                        <p style="text-align:left;">
+                                                            <strong>Mob. No: </strong>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.email"/>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.website"/>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.phone"/>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="60%">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <p style="text-align:left;">
+                                                            <strong>Street Address : </strong>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.street"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="text-align:left;">
+                                                            <strong>Pin Code : </strong>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.pincode"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="text-align:left;">
+                                                            <strong>City : </strong>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.city"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="text-align:left;">
+                                                            <strong>State : </strong>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.state"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="text-align:left;">
+                                                            <strong>Country : </strong>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.country"/>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td width="60%">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <p style="text-align:left;">
+                                                            <strong>Alternate Email :</strong>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.aemail"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="text-align:left;">
+                                                            <strong>Alternate Mob. No.:</strong>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.aphone"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="text-align:left;">
+                                                            <strong>Fax :</strong>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.fax"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="text-align:left;">
+                                                            <strong>Landline/Telephone:</strong>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <p style="text-align:left;padding-left:10px;" t-field="o.lphone"/>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </t>
+        </t>
+    </template>
+
+</odoo>
